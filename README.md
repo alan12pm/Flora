@@ -4,3 +4,5 @@ The date column is translated into ISO 8601 format for standardisation. The cent
 The century had to be restored using a year toggle, documented in flora.sql.
 
 This is a repeatable script using a standard, open source product in SQLite.
+
+flora_reformatted.csv is the output dataset.
