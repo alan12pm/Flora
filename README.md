@@ -7,6 +7,6 @@ This is a repeatable script using a standard, open source product in SQLite.
 
 flora_reformatted.csv is the output dataset.
 
-The below query returned no rows, showing that KEY is the primary key.
+The below query returned no rows, showing that KEY is the primary key. (The asterisk doesn't display).
 
 select key, count(*) from flora group by key having count(*) > 1
